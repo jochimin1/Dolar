@@ -25,7 +25,9 @@ uvicorn main:app --reload --host 0.0.0.0 --port 5000
 
 # execute
 ```bash
-curl -s -i http://localhost:5000/dolar```
+curl -s -i http://localhost:5000/dolar
+```
+
 ```
 HTTP/1.1 200 OK
 date: Tue, 00 Aug 2022 18:01:52 GMT
@@ -39,5 +41,5 @@ content-type: application/json
 }
 ```
 
-## License
+# License
 [MIT](https://choosealicense.com/licenses/mit/)
