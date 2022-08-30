@@ -25,14 +25,14 @@ pip install -r requirements.txt
 ```curl -s -i http://localhost:5000/dolar```
 ```
 HTTP/1.1 200 OK
-date: Tue, 30 Aug 2022 18:01:52 GMT
+date: Tue, 00 Aug 2022 18:01:52 GMT
 server: uvicorn
 content-length: 52
 content-type: application/json
 
 {
-"Compra Dolar":"RD$52.92",
-"Venta Dolar":"RD$53.39"
+"Compra Dolar":"RD$00.00",
+"Venta Dolar":"RD$00.00"
 }
 ```
 
