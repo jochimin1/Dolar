@@ -19,10 +19,13 @@ pip install -r requirements.txt
 ```
 # Usage
 
-```uvicorn main:app --reload --host 0.0.0.0 --port 5000```
+```bash
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```
 
 # execute
-```curl -s -i http://localhost:5000/dolar```
+```bash
+curl -s -i http://localhost:5000/dolar```
 ```
 HTTP/1.1 200 OK
 date: Tue, 00 Aug 2022 18:01:52 GMT
